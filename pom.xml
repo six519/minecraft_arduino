@@ -13,6 +13,21 @@
                   <target>1.8</target>
               </configuration>
           </plugin>
+          
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+          <archive>
+            <manifestEntries>
+                 <Built-By>Ferdinand Silva</Built-By>
+                 <Class-Path>../lib/jssc.jar</Class-Path>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+          
       </plugins>
    </build>
    
