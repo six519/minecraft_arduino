@@ -1,0 +1,4 @@
+name: TestPlugin
+main: com.ferdinandsilva.testplugin.TestPlugin
+author: Ferdinand Silva
+version: 1.0
